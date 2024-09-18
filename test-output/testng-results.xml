@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-17T04:56:37 TRT" name="Default suite" finished-at="2024-09-17T04:57:42 TRT" duration-ms="65132">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner2@79207381]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-09-17T04:56:37 TRT" name="Default test" finished-at="2024-09-17T04:57:42 TRT" duration-ms="65132">
+      <class name="Runner.TestRunner2">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner2@79207381]" started-at="2024-09-17T04:56:37 TRT" name="setUpClass" finished-at="2024-09-17T04:56:40 TRT" duration-ms="2371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@30ec7d21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner2@79207381]" started-at="2024-09-17T04:56:40 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-17T04:56:58 TRT" duration-ms="17683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User gender and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner2@79207381]" started-at="2024-09-17T04:56:58 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-17T04:57:13 TRT" duration-ms="14980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User gender and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner2@79207381]" started-at="2024-09-17T04:57:13 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-17T04:57:28 TRT" duration-ms="15086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User firstname and lastname"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner2@79207381]" started-at="2024-09-17T04:57:28 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-17T04:57:42 TRT" duration-ms="14659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User firstname and lastname"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner2@79207381]" started-at="2024-09-17T04:57:42 TRT" name="tearDownClass" finished-at="2024-09-17T04:57:42 TRT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
